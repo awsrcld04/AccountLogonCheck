@@ -1,10 +1,21 @@
-Description:
+REQUIREMENTS:
 
--Finds accounts that have not logged in within a certain number of days
+Operating System Requirements:
+Windows Server 2003 or higher (32-bit)
+Windows Server 2008 or higher (32-bit)
 
--Disables accounts that have not logged in within a certain number of days
+Additional software requirements:
+Microsoft .NET Framework v3.5
 
--Optional: Find and disable accounts that have not been used (no login datetimestamp)
+Active Directory requirements:
+One of following domain functional levels
+- Windows Server 2003 domain functional level
+- Windows Server 2008 domain functional level
+
+Additional requirements:
+Domain administrative access is required to perform operations by AccountLogonCheck
+
+DESCRIPTION and OPERATION:
 
 Description: Find and disable user accounts that are no longer being used
 
