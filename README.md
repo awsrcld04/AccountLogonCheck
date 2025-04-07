@@ -7,6 +7,8 @@ DESCRIPTION:
 - Disables accounts that have not logged in within a certain number of days
 - Optional: Find and disable accounts that have not been used (no login datetimestamp)
 
+> NOTES: "v1.0" was completed in 2011. AccountLogonCheck was written to work in on-premises Active Directory environments. The purpose of AccountLogonCheck was/is to keep Active Directory environments "clean" for user accounts and to help facilitate upgrades/migrations as a "clean AD" will lessen the chance for unexpected impact due to user accounts.
+
 ## Requirements:
 
 Operating System Requirements:
