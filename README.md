@@ -7,8 +7,8 @@ DESCRIPTION: Find and disable user accounts that are no longer being used
 ## REQUIREMENTS:
 
 Operating System Requirements:
-Windows Server 2003 or higher (32-bit)
-Windows Server 2008 or higher (32-bit)
+- Windows Server 2003 or higher (32-bit)
+- Windows Server 2008 or higher (32-bit)
 
 Additional software requirements:
 Microsoft .NET Framework v3.5
