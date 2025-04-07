@@ -1,4 +1,10 @@
-REQUIREMENTS:
+
+# AccountLogonCheck
+
+DESCRIPTION: Find and disable user accounts that are no longer being used
+
+
+## REQUIREMENTS:
 
 Operating System Requirements:
 Windows Server 2003 or higher (32-bit)
@@ -15,9 +21,8 @@ One of following domain functional levels
 Additional requirements:
 Domain administrative access is required to perform operations by AccountLogonCheck
 
-DESCRIPTION and OPERATION:
 
-Description: Find and disable user accounts that are no longer being used
+## Operation and Configuration:
 
 Command-line parameters:
 -run (Required parameter)
