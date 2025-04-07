@@ -692,7 +692,6 @@ namespace AccountLogonCheck
             dCatchTable.Add("funcPrintParameterSyntax", "f18");
             dCatchTable.Add("funcPrintParameterWarning", "f19");
             dCatchTable.Add("funcProgramExecution", "f20");
-            dCatchTable.Add("funcProgramRegistryTag", "f21");
             dCatchTable.Add("funcToEventLog", "f22");
             dCatchTable.Add("funcWriteToErrorLog", "f23");
             dCatchTable.Add("funcWriteToOutputLog", "f24");
