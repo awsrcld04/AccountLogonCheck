@@ -1,4 +1,8 @@
-﻿//Description:
+﻿// Copyright (C) 2025 Akil Woolfolk Sr. <akil.woolfolk@gmail.com>
+// All Rights Reserved
+// All the changes released under the MIT license as the original code.
+
+//Description:
 //Finds accounts that have not logged in within a certain number of days
 //Disables accounts that have not logged in within a certain number of days
 //Optional: Find and disable accounts that have not been used (no login datetimestamp)
