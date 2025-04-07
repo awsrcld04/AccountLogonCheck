@@ -208,8 +208,6 @@ namespace AccountLogonCheck
 
                     funcToEventLog("AccountLogonCheck", "AccountLogonCheck started", 100);
 
-                    funcProgramRegistryTag("AccountLogonCheck");
-
                     // Open a TextWriter to pass to each function for logging 
                     // The TextWriter was created at this level to help with
                     // log file formatting
