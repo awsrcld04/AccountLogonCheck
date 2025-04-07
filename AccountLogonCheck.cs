@@ -46,7 +46,7 @@ namespace AccountLogonCheck
 
         static void funcPrintParameterSyntax()
         {
-            Console.WriteLine("AccountLogonCheck v1.0 (c) 2011 SystemsAdminPro.com");
+            Console.WriteLine("AccountLogonCheck v1.0");
             Console.WriteLine();
             Console.WriteLine("Description: Find and disable user accounts that are no longer being used");
             Console.WriteLine();
