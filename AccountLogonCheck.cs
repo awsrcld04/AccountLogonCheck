@@ -1029,35 +1029,31 @@ namespace AccountLogonCheck
         {
             try
             {
-                //if (funcLicenseCheck())
-                if (funcLicenseActivation())
+                if (args.Length == 0)
                 {
-                    if (args.Length == 0)
+                    funcPrintParameterWarning();
+                }
+                else
+                {
+                    if (args[0] == "-?")
                     {
-                        funcPrintParameterWarning();
+                        funcPrintParameterSyntax();
                     }
                     else
                     {
-                        if (args[0] == "-?")
+                        string[] arrArgs = args;
+                        CMDArguments objArgumentsProcessed = funcParseCmdArguments(arrArgs);
+
+                        if (objArgumentsProcessed.bParseCmdArguments)
                         {
-                            funcPrintParameterSyntax();
+                            funcProgramExecution(objArgumentsProcessed);
                         }
                         else
                         {
-                            string[] arrArgs = args;
-                            CMDArguments objArgumentsProcessed = funcParseCmdArguments(arrArgs);
-
-                            if (objArgumentsProcessed.bParseCmdArguments)
-                            {
-                                funcProgramExecution(objArgumentsProcessed);
-                            }
-                            else
-                            {
-                                funcPrintParameterWarning();
-                            } // check objArgumentsProcessed.bParseCmdArguments
-                        } // check args[0] = "-?"
-                    } // check args.Length == 0
-                } // funcLicenseCheck()
+                            funcPrintParameterWarning();
+                        } // check objArgumentsProcessed.bParseCmdArguments
+                    } // check args[0] = "-?"
+                } // check args.Length == 0
             }
             catch (Exception ex)
             {
