@@ -1,0 +1,32 @@
+// Switch to determine if ExclusionGroups in Active Directory
+//  will be used
+UseExclusionGroups=yes
+
+// Prefix for accounts to exclude from being processed
+// Use the logon name for the account
+//	Automatic Exclusion: SystemMailbox
+ExcludePrefix=
+
+// Suffix for accounts to exclude from being processed
+// Use the logon name for the account
+ExcludeSuffix=
+
+// Specific accounts to exclude from being processed
+// Use the logon name for the account
+//	Automatic exclusion: Administrator
+//	Automatic exclusion: Guest
+//	Automatic exclusion: krbtgt
+//	Automatic exclusion: SUPPORT_388945a0
+Exclude=
+
+// Specify the number of days after a 14-day period (2 weeks) to use
+//  to search for accounts that are not being used
+// For example, specifying 16 days would add up to 30 days
+DaysSinceLastLogon=31
+
+// Switch to determine if unused accounts are disabled
+DisableUnusedAccounts=no
+
+// Number of days to use to exclude accounts that were created recently
+//   but not yet used
+DaysSinceDateCreated=14
